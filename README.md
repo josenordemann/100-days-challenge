@@ -1,0 +1,68 @@
+# 100 Days of GPU
+
+A personal journey to learn GPU programming by writing CUDA code consistently for 100 days.
+
+This project is inspired by the [100 Days of GPU Challenge](https://github.com/hkproj/100-days-of-gpu).
+
+## Goals
+
+- Build a solid understanding of GPU programming.
+- Learn CUDA through small, practical exercises.
+- Progress from basic kernels to parallel algorithms.
+- Document what I learn each day.
+- Prioritize consistency and understanding over perfection.
+
+## Challenge Rules
+
+1. Write GPU-related code every day.
+2. Keep each day's work in its own directory.
+3. Document the exercise and the concepts learned.
+4. Test the code before marking the day as completed.
+5. Commit source code, not compiled binaries.
+6. Every submitted solution must be understood by me.
+
+## AI Usage Policy
+
+AI may be used as a learning tool, not as a tool that completes the challenge for me.
+
+I may use AI to:
+
+- Explain concepts and error messages.
+- Provide hints and learning resources.
+- Review code that I have written.
+- Help me understand why something does not work.
+
+I will not use AI to:
+
+- Generate complete solutions before I attempt the exercise.
+- Submit code that I do not understand.
+- Replace the process of researching, debugging, and learning.
+
+Every solution in this repository is written, tested, and understood by me.
+
+## Progress
+
+| Day | Exercise | Concepts | Status |
+|---:|---|---|:---:|
+| 001 | A single GPU thread writes `42`, and the host prints it | Kernel launch, device memory, synchronization, D2H copy | ✅ |
+
+## Repository Structure
+
+```text
+.
+├── day-001/
+│   ├── helloworld.cu
+├── day-002/
+└── README.md
+```
+
+## Environment
+
+- CUDA C/C++
+- NVIDIA CUDA Toolkit
+- Ubuntu on WSL
+- NVIDIA GPU
+
+## Motivation
+
+The goal is not to write perfect code from the beginning. The goal is to learn something every day, understand my mistakes, and become progressively better at GPU programming.
