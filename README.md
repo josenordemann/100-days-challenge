@@ -45,14 +45,17 @@ Every solution in this repository is written, tested, and understood by me.
 | Day | Exercise | Concepts | Status |
 |---:|---|---|:---:|
 | 001 | A single GPU thread writes `42`, and the host prints it | Kernel launch, device memory, synchronization, D2H copy | ✅ |
+| 002 | Element-wise vector addition `C = A + B` with `N = 256` | Global thread indexing, grid configuration, bounds checking, result validation | ✅ |
+
 
 ## Repository Structure
 
 ```text
 .
-├── day-001/
-│   ├── helloworld.cu
-├── day-002/
+├── day-1/
+│   └── helloworld.cu
+├── day-2/
+│   └── gpu_vector_addition.cu
 └── README.md
 ```
 
