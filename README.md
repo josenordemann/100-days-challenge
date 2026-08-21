@@ -46,6 +46,7 @@ Every solution in this repository is written, tested, and understood by me.
 |---:|---|---|:---:|
 | 001 | A single GPU thread writes `42`, and the host prints it | Kernel launch, device memory, synchronization, D2H copy | ✅ |
 | 002 | Element-wise vector addition `C = A + B` with `N = 256` | Global thread indexing, grid configuration, bounds checking, result validation | ✅ |
+| 003 | Vector addition with arbitrary sizes | Dynamic grid sizing, ceiling division, excess thread protection, multiple test cases | ✅ |
 
 
 ## Repository Structure
@@ -55,6 +56,8 @@ Every solution in this repository is written, tested, and understood by me.
 ├── day-1/
 │   └── helloworld.cu
 ├── day-2/
+│   └── gpu_vector_addition.cu
+├── day-3/
 │   └── gpu_vector_addition.cu
 └── README.md
 ```
