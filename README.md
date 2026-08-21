@@ -47,7 +47,7 @@ Every solution in this repository is written, tested, and understood by me.
 | 001 | A single GPU thread writes `42`, and the host prints it | Kernel launch, device memory, synchronization, D2H copy | ✅ |
 | 002 | Element-wise vector addition `C = A + B` with `N = 256` | Global thread indexing, grid configuration, bounds checking, result validation | ✅ |
 | 003 | Vector addition with arbitrary sizes | Dynamic grid sizing, ceiling division, excess thread protection, multiple test cases | ✅ |
-
+| 004 | CUDA error handling with `CUDA_CHECK` | Error codes, macros, file and line diagnostics, launch and synchronization errors | ✅ |
 
 ## Repository Structure
 
@@ -59,6 +59,8 @@ Every solution in this repository is written, tested, and understood by me.
 │   └── gpu_vector_addition.cu
 ├── day-3/
 │   └── gpu_vector_addition_N.cu
+├── day-4/
+│   └── cuda_check_error.cu
 └── README.md
 ```
 
