@@ -58,7 +58,7 @@ Every solution in this repository is written, tested, and understood by me.
 ├── day-2/
 │   └── gpu_vector_addition.cu
 ├── day-3/
-│   └── gpu_vector_addition.cu
+│   └── gpu_vector_addition_N.cu
 └── README.md
 ```
 
